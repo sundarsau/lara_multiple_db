@@ -1,4 +1,4 @@
- # Multiple database connections in Laravel
+ # Multiple database connections in Laravel to migrate data
 Create multiple MySQL database connections in Laravel 10 to migrate data. Select data from one database and insert it into another database for data migration. In this case data of "customers" table from source db to be migrated to "users" and "user_profiles" table in destination db.
 
 # How To Use
