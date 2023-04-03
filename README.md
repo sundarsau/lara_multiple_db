@@ -50,7 +50,7 @@ Create multiple MySQL database connections in Laravel 10 to migrate data. Select
             ]) : [],
         ],
 8) copy .env.example to .env and update database details for both the connections. host, port, database, username and password:
- # connection for default database
+ # default database connection
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
