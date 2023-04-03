@@ -4,8 +4,8 @@ Create multiple MySQL database connections in Laravel 10 to migrate data. Select
 # How To Use
 1) Create a MySQL database from which you want to extract data. For this example, I used "db_old" as my source database. 
 2) Create a table in the above database and populate some test data in it. For this project I used "customers" table. So this will be my source table.
-3) Above tow steps are done outside my Laravel project
-4) Download the repository from https://github.com/sundarsau/lara_multiple_db
+3) Above two steps are done outside my Laravel project
+4) Now, download the repository from https://github.com/sundarsau/lara_multiple_db
 6) Extract it into a folder
 5) Create a Database in MySQL for this Laravel project. This will be the destination database. I called this as "db_new".
 6) Open app/config/database.php, just verify that connection "mysql_2" is defined. There are two mysql connections, one is default 'mysql' and other is 'mysql_2'.
@@ -17,7 +17,7 @@ Create multiple MySQL database connections in Laravel 10 to migrate data. Select
     DB_USERNAME=root
     DB_PASSWORD=
     
-    # second connection to connect to old database for data migration
+ # second connection to connect to old database for data migration
     DB_CONNECTION_2=mysql
     DB_HOST_2=127.0.0.1
     DB_PORT_2=3306
