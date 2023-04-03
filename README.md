@@ -9,7 +9,7 @@ Create multiple MySQL database connections in Laravel 10 to migrate data. Select
 6) Extract it into a folder
 5) Create a Database in MySQL for this Laravel project. This will be the destination database. I called this as "db_new".
 6) Open app/config/database.php, just verify that connection "mysql_2" is defined. There are two mysql connections, one is default 'mysql' and other is 'mysql_2'.
-7) copy .env.example to .env and update database details for both the connections. host, port, database, username and password   
+7) copy .env.example to .env and update database details for both the connections. host, port, database, username and password:
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
